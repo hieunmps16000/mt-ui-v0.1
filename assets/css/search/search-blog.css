@@ -1,0 +1,73 @@
+/* MT Search Blog */
+#Mod421 {
+    position: relative;
+    cursor: pointer;
+}
+
+#Mod421 .workshome-title::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    content: "\f002";
+    font-family: fontawesome;
+}
+
+#Mod421 .workshome-title span {
+    display: none;
+}
+
+#Mod421 .workshome-content {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition-property: opacity, transform;
+    transition-duration: 0.25s;
+}
+
+#Mod421 .workshome-content.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+#Mod421 .k2SearchBlockForm {
+    width: 0;
+    height: 56px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    transition: width 0.25s ease-in-out 0.25s;
+}
+
+#Mod421 .workshome-content.active .k2SearchBlockForm {
+    width: 400px;
+}
+
+#Mod421 .inputbox {
+    padding-left: 0;
+    font-size: 120%;
+    transition: 0.25s;
+}
+
+#Mod421 .button {
+    width: auto;
+}
+
+#Mod421 .button,
+#Mod421 .inputbox,
+#Mod421 .inputbox::placeholder {
+    color: #fff;
+}
+
+#Mod421 .inputbox::placeholder {
+    font-weight: 200;
+}
