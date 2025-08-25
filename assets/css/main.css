@@ -35,6 +35,14 @@ body#bd {
     gap: 30px;
 }
 
+.header2 .main2 > div.mobile_menu {
+    display: none;
+}
+
+.header2_2 .workshome-title span {
+    display: none;
+}
+
 /* MT Logo */
 .logo {
     display: flex;
@@ -120,6 +128,11 @@ body#bd {
 }
 
 /* MT Quick Cart */
+.cart_dropdown {
+    display: block;
+    padding: 10px;
+}
+
 .cart_dropdown_trong {
     position: relative;
     display: block;
@@ -177,11 +190,6 @@ body#bd {
 .popup_cart_total_thanhtoan .checkout-button-top:hover {
     background: #007fc2;
     opacity: 0.8;
-}
-
-/* MT Buttons */
-.popup_cart_total_thanhtoan .checkout-button-top {
-    background: #007fc2;
 }
 
 /* MT Menungang */
@@ -590,7 +598,12 @@ div#tabContainer .multitab li span.active {
 }
 
 /* MT Footer */
+#ja-chantrang {
+    margin-top: 0;
+}
+
 .footer2 {
+    padding: 40px 0;
     background: #007fc2;
 }
 
@@ -729,7 +742,7 @@ table.table-contact td:last-child {
     background: rgba(255, 255, 255, 0.2);
 }
 
-.table-contact iframe {
+.bodylienhe .table-contact iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -819,7 +832,8 @@ input[name="mtcaptcha"] {
     padding: 0;
 }
 
-.mtcaptcha_1 img {
+.mtcaptcha_1 img,
+.lienhe .mtcaptcha_1 img {
     height: 48px;
     border-radius: 4px;
     object-fit: contain;

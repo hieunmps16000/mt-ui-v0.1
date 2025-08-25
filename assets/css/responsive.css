@@ -101,6 +101,48 @@
     margin-top: 20px;
 }
 
+/* MT Contact Page */
+#bd.bodylienhe #ja-noidunggiua {
+    padding: 30px 10px;
+}
+
+.lienhe .table-wrap {
+    overflow: unset;
+}
+
+.lienhe .table-wrap table {
+    min-width: unset;
+}
+
+table.table-contact tr {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.table-contact .map {
+    height: 0;
+    padding-top: 50%;
+}
+
+.mtcaptcha {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.mtcaptcha_1,
+.mtcaptcha_2 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.mtcaptcha_1_1 {
+    flex: 1;
+}
+
+#ja-cotgiua .mtcaptcha_1_1 img {
+    width: 100%;
+}
+
 /* MT Table */
 .table-wrap {
     overflow-x: scroll;
