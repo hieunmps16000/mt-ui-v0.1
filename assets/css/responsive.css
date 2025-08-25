@@ -1,0 +1,111 @@
+/* MT Mobile Menu */
+.header2 .main2 > div.mobile_menu {
+    display: inline-block;
+    width: auto;
+    line-height: 1;
+}
+
+.mobile_menu .tieude i {
+    padding: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.mobile_menu .noidung,
+.mobile_menu .noidung > ul > li > ul {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* MT Heading */
+#ja-extra .workshome-title > *,
+#ja-chantrang .workshome-title > *,
+#ja-noidunggiua .workshome-title > * {
+    font-size: 150%;
+}
+
+/* MT Products */
+.browse-view .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+
+.browse-view .blocksp,
+.browse-view .browseProductImage {
+    width: 100%;
+}
+
+.browse-view .spacer {
+    padding: 0;
+}
+
+.browse-view .product-thongtin-ten {
+    font-size: 100%;
+}
+
+.product-thongtin-giacu {
+    font-size: 81.25%;
+}
+
+.product-thongtin-salesPrice,
+.browse-view .nutflytocart input,
+.browse-view .nutaddtocart input {
+    font-size: 87.5%;
+}
+
+/* MT Blogs*/
+#itemListLeading {
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.catItemImageBlock {
+    width: 100%;
+    margin: 0;
+}
+
+/* MT Footer */
+.footer2 .main2 {
+    grid-template-columns: 1fr;
+}
+
+.footer-toggle .workshome-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-toggle .workshome-title::after {
+    content: "+";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.footer-toggle .workshome-title.opendoor::after {
+    content: "-";
+}
+
+#ja-chantrang .footer-toggle .workshome-title > * {
+    margin: 0;
+}
+
+.footer-toggle .workshome-content {
+    display: none;
+    margin-top: 20px;
+}
+
+/* MT Table */
+.table-wrap {
+    overflow-x: scroll;
+}
+
+.table-wrap table {
+    min-width: 600px;
+}
