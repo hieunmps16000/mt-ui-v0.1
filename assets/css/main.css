@@ -854,3 +854,27 @@ input[name="mtcaptcha"] {
     max-width: 100%;
     height: auto;
 }
+
+/* MT Widget */
+.widget {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    z-index: 1;
+}
+
+.widget .phonering-alo-phone {
+    position: relative;
+}
+
+.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-circle {
+    border-color: #ff3b30;
+}
+
+.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-circle-fill {
+    background: #ff3b30;
+}
+
+.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-img-circle {
+    background: #ff3b30;
+}
