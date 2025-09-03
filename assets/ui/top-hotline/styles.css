@@ -1,0 +1,35 @@
+.header1 {
+    padding: 10px 0;
+    background: #efefef;
+    font-size: 81.25%;
+    line-height: 1;
+}
+
+.header1 .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header1 .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header1 a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header1 a:hover {
+    opacity: 0.8;
+}
+
+.header1 img {
+    display: block;
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+}

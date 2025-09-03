@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: system-ui, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
