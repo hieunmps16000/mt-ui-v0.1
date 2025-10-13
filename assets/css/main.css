@@ -1,15 +1,3 @@
-/* Reset css */
-#bd,
-::before,
-::after {
-    box-sizing: border-box;
-}
-
-body#bd {
-    font-size: 16px;
-}
-
-/* ============================================================ */
 /* MT Layout */
 #ja-extra,
 .bodyhome_bd #ja-noidunggiua {
@@ -18,6 +6,10 @@ body#bd {
 
 .bodyhome_bd #ja-extra {
     display: block;
+}
+
+#ja-noidunggiua {
+    margin-top: 0;
 }
 
 #ja-cotgiua {
@@ -272,6 +264,21 @@ body#bd {
     font-size: 80%;
 }
 
+/* MT Breadcrumbs */
+.dinhhuong1 {
+    margin-top: 30px;
+    background: #fff;
+}
+
+.breadcrumbs {
+    font-size: 87.5%;
+    font-weight: 300;
+}
+
+.breadcrumbs strong {
+    color: #106eea;
+}
+
 /* MT Heading */
 #ja-extra .workshome-title > *,
 #ja-chantrang .workshome-title > *,
@@ -282,9 +289,9 @@ body#bd {
 }
 
 /* MT Product */
-.block-orderby {
+.browse-first {
     padding: 10px;
-    background: linear-gradient(45deg, transparent, #f1f1f1);
+    background: #f1f1f1;
 }
 
 .block-orderby span {
@@ -355,8 +362,12 @@ body#bd {
 
 .browse-view .browseProductImage {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
     display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 4px;
 }
 
@@ -680,36 +691,6 @@ div#tabContainer .multitab li span.active {
 }
 
 /* MT Contact Page */
-#bd.bodylienhe #ja-noidunggiua {
-    position: relative;
-    margin-top: 0;
-    padding: 30px 0;
-}
-
-#bd.bodylienhe #ja-noidunggiua::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    filter: brightness(0.3);
-    background: url(../../../images/decors/contact-bg.jpg) center center/cover no-repeat fixed;
-    background-color: #1a1a1a;
-}
-
-#bd.bodylienhe #ja-noidunggiua .main2 {
-    position: relative;
-    z-index: 1;
-}
-
-#bd.bodylienhe .lienhe,
-#bd.bodylienhe .lienhe a {
-    color: #fff;
-}
-
-.bodylienhe #ja-cotgiua .trangctbv .workshome-title {
-    display: none;
-}
-
 table.table-contact tr {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -738,8 +719,6 @@ table.table-contact td:last-child {
     position: relative;
     height: 100%;
     overflow: hidden;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.2);
 }
 
 .bodylienhe .table-contact iframe {
@@ -748,38 +727,35 @@ table.table-contact td:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 10px;
 }
 
 .rsform .rsform-block {
     margin-bottom: 20px;
 }
 
+.rsform-block:before {
+    display: none;
+}
+
 .rsform select,
 .rsform textarea,
 .rsform input[type="text"],
 .rsform input[type="password"] {
+    padding: 10px 12px;
     border: none;
     border-radius: 4px;
     border: 1px solid transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     font-family: inherit;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.2);
+    color: #333;
+    background: #f1f1f1;
     transition: border 0.25s;
-}
-
-.rsform select::placeholder,
-.rsform textarea::placeholder,
-.rsform input[type="text"]::placeholder {
-    color: #fff;
 }
 
 .rsform select:focus,
 .rsform textarea:focus,
 .rsform input[type="text"]:focus,
 .rsform input[type="password"]:focus {
-    border-bottom-color: #007fc2;
+    border-color: #000;
 }
 
 .rsform-block:before {
@@ -794,12 +770,12 @@ table.table-contact td:last-child {
     padding: 0 20px;
     border-radius: 4px;
     font-family: inherit;
-    background: #007fc2;
+    background: #000;
 }
 
 .rsform input[type="button"]:hover {
     opacity: 0.9;
-    background: #007fc2;
+    background: #000;
 }
 
 .rsform .rsform-block-guingay {
@@ -811,7 +787,7 @@ input[name="mtcaptcha"] {
     height: 48px;
     border: none;
     border-radius: 4px;
-    background: #fff;
+    background: #f1f1f1;
     font-weight: 400;
 }
 
@@ -845,36 +821,90 @@ input[name="mtcaptcha"] {
 }
 
 .mtcaptcha_1_3 i:hover {
-    color: #007fc2;
+    color: #000;
 }
 
 /* MT Blog Detail */
-.MTTable_Content img,
-.MTTable_Content iframe {
+.MTTable_Content img {
     max-width: 100%;
     height: auto;
 }
 
-/* MT Widget */
+.MTTable_Content iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+/* Widget */
 .widget {
     position: fixed;
     bottom: 20px;
-    right: 0;
-    z-index: 1;
+    right: 20px;
 }
 
-.widget .phonering-alo-phone {
+.widget .ja-workshome {
+    margin-bottom: 40px;
+}
+
+.widget .ja-workshome:last-child {
+    margin-bottom: 0;
+}
+
+.widget__btn {
     position: relative;
-}
-
-.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-circle {
-    border-color: #ff3b30;
-}
-
-.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-circle-fill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: #ff3b30;
     background: #ff3b30;
 }
 
-.custom-widget-call .phonering-alo-phone.phonering-alo-green .phonering-alo-ph-img-circle {
-    background: #ff3b30;
+.custom-zalo .widget__btn {
+    color: #0068ff;
+    background: #0068ff;
+}
+
+.widget__btn::before,
+.widget__btn::after {
+    content: "";
+    position: absolute;
+    top: -25%;
+    left: -25%;
+    z-index: -1;
+    display: block;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+}
+
+.widget__btn::before {
+    width: 150%;
+    height: 150%;
+    background: currentColor;
+}
+
+.widget__btn::after {
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    border: 1px solid currentcolor;
+    opacity: 0.1;
+    -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+}
+
+.widget__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    object-fit: contain;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
 }
