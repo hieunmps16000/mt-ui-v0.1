@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    align-items: center;
+    user-select: none;
+
+    &__img {
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+    }
+
+    &__title {
+        margin-left: 10px;
+        color: #333;
+    }
+}

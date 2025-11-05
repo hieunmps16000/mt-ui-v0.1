@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🐴 CoderLord</title>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <!-- Embed CSS PrismJS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css" />
 
+        <script src="./assets/js/scripts.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header" class="header"></header>
+        <script>
+            load("#header", "./templates/header.html");
+        </script>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <nav class="navbar">
+                            <h2 class="navbar__title section-heading">Tables content</h2>
+                            <ul class="navbar__list">
+                                <li><a class="navbar__link" href="#!">Header</a></li>
+                                <li><a class="navbar__link" href="#!">Menu socials</a></li>
+                                <li><a class="navbar__link" href="#!">Navbar</a></li>
+                                <li><a class="navbar__link" href="#!">Hero</a></li>
+                                <li><a class="navbar__link" href="#!">About us</a></li>
+                                <li><a class="navbar__link" href="#!">Grid blog</a></li>
+                                <li><a class="navbar__link" href="#!">Product list</a></li>
+                                <li><a class="navbar__link" href="#!">Call to action UI</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-9">
+                        <div id="menu-socials"></div>
+                        <script>
+                            load("#menu-socials", "./ui-components/menu-socials.html");
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+            <script>
+                load("#footer", "./templates/footer.html");
+            </script>
+        </footer>
+
+        <!-- Embed PrismJS -->
+        <script src="https:///prismjs@v1.x/components/prism-core.min.js"></script>
+        <script src="https:///prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+    </body>
+</html>
