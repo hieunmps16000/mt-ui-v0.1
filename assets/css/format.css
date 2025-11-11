@@ -1,0 +1,27 @@
+.productdetails .product-thongtin-blockgia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+div#tabContainer .multitab li span {
+    padding: 10px 0;
+    font-size: 100%;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+div#tabContainer .multitab li span.active,
+div#tabContainer .multitab li span:hover {
+    color: #007fc2;
+    background: transparent;
+}
+
+div#tabContainer .multitab li span.active {
+    border-bottom: 2px solid currentcolor;
+}
+
+div#tabContainer .multitab li + li {
+    margin-left: 30px;
+}
