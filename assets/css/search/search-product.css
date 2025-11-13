@@ -8,8 +8,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 1;
+
     padding: 10px;
+    line-height: 1;
+
+    color: #fff;
+
     content: "\f002";
     font-size: 150%;
     font-family: fontawesome;
@@ -40,31 +44,17 @@
     transform: scale(1);
 }
 
-#Mod377 form {
-    padding: 40px;
-}
-
 #Mod377 .module_search {
     width: 0;
     height: 56px;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
     transition: width 0.25s ease-in-out 0.25s;
 }
 
 #Mod377 .workshome-content.active .module_search {
     width: 400px;
-}
-
-#Mod377 .inputbox {
-    padding-left: 0;
-    font-size: 120%;
-    transition: 0.25s;
-}
-
-#Mod377 .button {
-    width: auto;
 }
 
 #Mod377 .button,
@@ -73,6 +63,19 @@
     color: #fff;
 }
 
+#Mod377 .inputbox {
+    padding-left: 0;
+    font-size: 120%;
+    transition: 0.25s;
+}
+
 #Mod377 .inputbox::placeholder {
-    font-weight: 200;
+    font-size: 87.5%;
+    font-weight: 400;
+}
+
+#Mod377 .button {
+    padding: 14px;
+    width: auto;
+    background: transparent;
 }

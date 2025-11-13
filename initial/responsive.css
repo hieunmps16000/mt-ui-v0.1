@@ -1,0 +1,774 @@
+/* Ipad */
+@media screen and (max-width: 1200px) {
+    /* Ở chế độ màn hình này, reset các thành phần bị quy định chiều ngang là px, ví dụ .main {width:950px;} */
+    .main {
+        width: 100% !important;
+    }
+    .main2 {
+        width: 100% !important;
+    }
+    .nutflytocart i,
+    .nutaddtocart i {
+        display: none;
+    }
+    input.addtocart-button,
+    input.flytocart-button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 1050px) {
+}
+@media screen and (max-width: 800px) {
+    .cart-block_1_spacer {
+        padding-left: 30px;
+    }
+    .cart-usergiohang tr.yek_hovaten,
+    .cart-usergiohang tr.yek_phone_1,
+    .cart-usergiohang tr.yek_email,
+    .cart-usergiohang tr.yek_address_1 {
+        width: auto;
+        float: none;
+    }
+    .cart-block_2 {
+        width: 50%;
+    }
+    .cart-block_1 {
+        width: 50%;
+    }
+    .formdk .yek_hovaten,
+    .formdk .yek_password2,
+    .formdk .yek_phone_1,
+    .formdk .yek_username,
+    .formdk .yek_password,
+    .formdk .yek_email {
+        width: auto;
+        float: none;
+    }
+}
+
+/* Điện thoại: mobile cũ :  @media screen and (max-width: 768px){ */
+@media screen and (max-width: 767px) {
+    #ja-cottrai {
+        padding: 0%;
+        width: 100%;
+        float: none;
+    }
+    #ja-cotphai {
+        padding: 0%;
+        width: 100%;
+        float: none;
+    }
+    #ja-cotgiua {
+        width: 100%;
+        float: none;
+    }
+    #ja-cottrai,
+    #ja-cotphai {
+        display: none;
+    }
+    .browse-view .blocksp {
+        display: block;
+        padding: 0%;
+        width: 50%;
+        margin: 0%;
+    }
+    .browse-view .row {
+        display: inherit;
+    }
+    .browse-view .nutaddtocart,
+    .browse-view .nutflytocart {
+        margin: 3px 0px;
+    }
+    .browse-view .spacer {
+        padding: 10px;
+    }
+    .browse-view .browseProductImage {
+        width: auto;
+        margin: auto;
+    }
+    .catItemImageBlock {
+        margin: 0%;
+        width: 40%;
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    .catItemThongTin {
+        width: auto;
+        float: none;
+    }
+    .catItemTitle {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+    .catItemReadMore {
+        width: 100%;
+        float: none;
+    }
+    .itemListView.scroller .catItemView .catItemImageBlock {
+        margin-bottom: 10px;
+    }
+    .header-imageproduct {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        float: none;
+        padding: 0%;
+        border: 0px;
+        background: white;
+    }
+    .header-descproduct {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    #ja-cotgiua img {
+        max-width: 100%;
+    }
+    .bvcungmuc #k2ModuleRelated .k2ItemImageleft {
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+    .bvcungmuc #k2ModuleRelated h3 {
+        width: 65%;
+        float: right;
+    }
+    #ja-menungang,
+    #Mod326 {
+        display: none;
+    }
+    .mobile_menu {
+        display: table;
+        position: relative;
+        width: 100%;
+        table-layout: fixed;
+    }
+    .mobile_menu > div {
+        display: table-cell;
+        width: 100%;
+    }
+    .mobile_menu .tieude {
+        padding: 10px;
+        text-align: center;
+        background: #36b1d5;
+        color: white;
+        font-weight: bold;
+        font-size: 130%;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .mobile_menu .nentat {
+        position: fixed;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.6);
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .mobile_menu .noidung {
+        position: fixed;
+        z-index: 1000;
+        width: 70%;
+        left: -70%;
+        top: 0%;
+        height: 100%;
+        background: #38404b;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .mobile_menu .noidung,
+    .mobile_menu .nentat {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .mobile_menu .noidung > ul {
+        padding: 0px;
+    }
+    .mobile_menu .noidung > ul > li {
+        margin-bottom: 0px;
+    }
+    .mobile_menu .noidung > ul ul {
+        margin-left: 20px;
+    }
+    .mobile_menu .noidung li {
+        list-style-type: none;
+    }
+    .mobile_menu .noidung li a,
+    .mobile_menu .noidung li span {
+        padding: 0px 20px;
+        display: block;
+        color: #ffffff;
+        font-size: 110%;
+        line-height: 46px;
+    }
+    .mobile_menu .noidung > ul > li > a {
+        font-weight: bold;
+    }
+
+    .mobile_menu .nentat {
+        display: none;
+    }
+    .mobile_menu .noidung.mnmb {
+        left: 0%;
+    }
+    .mobile_menu .nentat.mnmb {
+        display: block;
+    }
+    .mobile_menu .noidung li a,
+    .mobile_menu .noidung li span {
+        padding-right: 46px;
+    }
+    .mobile_menu .noidung li {
+        position: relative;
+    }
+    .mobile_menu .noidung i {
+        color: white;
+    }
+    .mobile_menu .noidung i {
+        position: absolute;
+        width: 46px;
+        line-height: 46px;
+        height: 46px;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+    .mobile_menu .noidung i {
+        padding-right: 0;
+    }
+    .mobile_menu .noidung > ul > li > a {
+        border-bottom: 1px solid #757575;
+    }
+    .mobile_menu .noidung {
+        background: rgba(51, 51, 51, 0.9);
+    }
+    .mobile_menu .noidung > ul > li > ul {
+        background: #333;
+        margin-left: 0;
+        border-bottom: 1px solid #757575;
+    }
+    .mobile_menu .noidung > ul ul {
+        padding-left: 20px;
+    }
+    .td3,
+    .sd3 {
+        font-size: 0% !important;
+        width: 0px !important;
+    }
+    span.cart-images img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .mobile_menu i {
+        padding-right: 10px;
+    }
+    /* .itemFullText td,.itemFullText tr,.itemFullText table,.product-thongtin-mota td,.product-thongtin-mota tr,.product-thongtin-mota table{display:block;width:100%!important;} */
+    span.cart-images img {
+        height: auto;
+    }
+    .td4 {
+        width: 18%;
+    }
+    .td6 {
+        width: 29%;
+    }
+    .cart-summary > tbody > tr:first-child td {
+        font-size: 100%;
+    }
+    .td4 {
+        width: 24%;
+    }
+    .tranggiohang .product-thongtin-salesPrice {
+        font-size: 100%;
+    }
+    .tranggiohang .product-thongtin-billTotal {
+        font-size: 110%;
+    }
+    button.details-button {
+        font-size: 0px;
+        padding: 7px 3px;
+    }
+    button.details-button:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 400;
+        content: "\f0c7";
+        font-size: 14px;
+        padding: 7px 5px;
+    }
+    .formdndk_1,
+    .formdndk_2 {
+        float: none;
+        width: Auto;
+    }
+    .formdn,
+    .order-view {
+        float: none;
+        width: 100%;
+        clear: both;
+        display: block;
+        overflow: hidden;
+    }
+    .formdk {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+    }
+    .formdndk_2_2 .ja-workshome,
+    .formdndk_2_1 .formdk {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .formdndk_1 {
+        margin-bottom: 30px;
+    }
+    .formdndk_1 ul li {
+        display: inline-block;
+        float: left;
+        margin-right: 10px;
+    }
+    .order-view {
+        margin-bottom: 20px;
+    }
+    .header1_3 .ja-workshome {
+        float: none;
+    }
+    .header1_3 td {
+        display: block;
+        padding: 0px;
+    }
+    .header1 .main2 > div {
+        display: block;
+    }
+    .header2 .main2 > div {
+        display: block;
+    }
+    .footer2 .main2 > div {
+        display: block;
+        padding: 10px 0px;
+    }
+    .header2_2 .module_search {
+        width: auto;
+    }
+    .popup_cart {
+        width: 80%;
+        right: -80%;
+    }
+    .popup_cart > div {
+        padding: 0px 15px;
+    }
+    .n1 input {
+        width: 24px;
+    }
+    .alepaytragopblock_3 {
+        overflow-x: scroll;
+    }
+    .cart-block_1_spacer {
+        padding: 0;
+    }
+    .cart-block_2_spacer {
+        padding: 20px 10px;
+    }
+    .cart-block_1,
+    .cart-block_2 {
+        width: auto;
+        float: none;
+    }
+    .cart-block_1 {
+        margin-bottom: 30px;
+    }
+
+    /* Code Responsive Below */
+    #ja-header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    }
+
+    .header1 {
+        display: none;
+    }
+
+    .header2 .main2 {
+        gap: 0;
+    }
+
+    .header2_2 {
+        margin-left: auto;
+    }
+
+    .mobile_menu .tieude,
+    #Mod377 .workshome-title::before,
+    #Mod426 .workshome-title::before {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        font-size: 120%;
+    }
+
+    .cart_dropdown_trong {
+        font-size: 50%;
+    }
+
+    /* Begin: MT Search Product */
+    #Mod377 {
+        position: relative;
+        cursor: pointer;
+    }
+
+    #Mod377 .workshome-title::before {
+        content: "\f002";
+        padding: 10px;
+        line-height: 1;
+        color: #333;
+        font-family: fontawesome;
+    }
+
+    #Mod377 .workshome-title span {
+        display: none;
+    }
+
+    #Mod377 .workshome-content {
+        position: fixed;
+        inset: 0;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.9);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition-property: opacity, transform;
+        transition-duration: 0.25s;
+    }
+
+    #Mod377 .workshome-content.active {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+    #Mod377 .module_search {
+        width: 0;
+        height: 56px;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        transition: width 0.25s ease-in-out 0.25s;
+    }
+
+    #Mod377 .workshome-content.active .module_search {
+        width: 260px;
+    }
+
+    #Mod377 .button,
+    #Mod377 .inputbox,
+    #Mod377 .inputbox::placeholder {
+        color: #fff;
+    }
+
+    #Mod377 .inputbox {
+        padding-left: 0;
+        font-size: 120%;
+        transition: 0.25s;
+    }
+
+    #Mod377 .inputbox::placeholder {
+        font-size: 87.5%;
+        font-weight: 400;
+    }
+
+    #Mod377 .button {
+        padding: 14px;
+        width: auto;
+        background: transparent;
+    }
+    /* End: MT Search Product */
+
+    /* Begin: MT Search Blog */
+    #Mod426 {
+        position: relative;
+        cursor: pointer;
+    }
+
+    #Mod426 .workshome-title::before {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        padding: 10px;
+        content: "\f002";
+        font-family: fontawesome;
+    }
+
+    #Mod426 .workshome-title span {
+        display: none;
+    }
+
+    #Mod426 .workshome-content {
+        position: fixed;
+        inset: 0;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.9);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition-property: opacity, transform;
+        transition-duration: 0.25s;
+    }
+
+    #Mod426 .workshome-content.active {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+    #Mod426 .k2SearchBlockForm {
+        width: 0;
+        height: 56px;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #fff;
+        transition: width 0.25s ease-in-out 0.25s;
+    }
+
+    #Mod426 .workshome-content.active .k2SearchBlockForm {
+        width: 260px;
+    }
+
+    #Mod426 .button,
+    #Mod426 .inputbox,
+    #Mod426 .inputbox::placeholder {
+        color: #fff;
+    }
+
+    #Mod426 .inputbox {
+        padding-left: 0;
+        font-size: 120%;
+        transition: 0.25s;
+    }
+
+    #Mod426 .inputbox::placeholder {
+        font-size: 87.5%;
+        font-weight: 400;
+    }
+
+    #Mod426 .button {
+        padding: 14px;
+        width: auto;
+        background: transparent;
+    }
+    /* End: MT Search Blog */
+
+    /* Begin: MT Menu Mobile */
+    .header2 .main2 > div.mobile_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+    }
+
+    .mobile_menu .tieude {
+        color: #333;
+    }
+
+    .mobile_menu .tieude i {
+        padding-right: 0;
+    }
+
+    .mobile_menu .noidung li a,
+    .mobile_menu .noidung li span {
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    .mobile_menu .noidung {
+        width: 75%;
+        left: -75%;
+    }
+
+    .mobile_menu .noidung,
+    .mobile_menu .noidung > ul > li > ul {
+        background: #007fc2e6;
+    }
+
+    .mobile_menu .noidung > ul > li > a,
+    .mobile_menu .noidung > ul > li > ul {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .mobile_menu .noidung ul ul a {
+        font-size: 87.5%;
+    }
+    /* End: MT Menu Mobile */
+
+    /* Begin: MT Heading */
+    #ja-extra .workshome-title > *,
+    #ja-chantrang .workshome-title > *,
+    #ja-noidunggiua .workshome-title > * {
+        font-size: 125%;
+    }
+    /* End: MT Heading */
+
+    /* Begin: MT Blog */
+    #itemListLeading,
+    .trangtimkiem .itemList {
+        grid-template-columns: 1fr;
+    }
+
+    .catItemImageBlock {
+        width: 100%;
+        margin: 0;
+    }
+    /* End: MT Blog */
+
+    /* Begin: MT Product */
+    .block-orderby > div.orderby-limit {
+        display: none;
+    }
+
+    .browse-view .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .browse-view .blocksp {
+        width: 100%;
+    }
+
+    .browse-view .spacer {
+        padding: 0;
+    }
+
+    .browse-view .browseProductImage {
+        width: 100%;
+    }
+
+    .browse-view .product-thongtin-salesPrice {
+        margin-bottom: 0;
+    }
+
+    .main-image img {
+        height: 280px;
+    }
+    /* End: MT Product */
+
+    /* Begin: MT Footer */
+    .footer2 .main2 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer2 .main2 > div {
+        padding: 0;
+    }
+
+    .footer-toggle .workshome-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-toggle .workshome-title::after {
+        content: "+";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 42px;
+        height: 42px;
+
+        color: #fff;
+
+        font-size: 200%;
+        font-weight: 700;
+        transition: all 0.2s ease;
+    }
+
+    .footer-toggle .workshome-title.opendoor::after {
+        content: "-";
+    }
+
+    #ja-chantrang .footer-toggle .workshome-title > * {
+        margin: 0;
+    }
+
+    .footer-toggle .workshome-content {
+        display: none;
+    }
+    /* End: MT Footer */
+
+    /* Begin: MT Socials */
+    .socials .menu li a,
+    #ja-chantrang .socials .menu a {
+        width: 42px;
+        height: 42px;
+    }
+    /* End: MT Socials */
+
+    /* Begin: MT Content */
+    .MTTable_Menu {
+        padding: 10px;
+    }
+
+    .MTTable_Menu ul a {
+        font-size: 87.5%;
+    }
+
+    .itemFullText .table-wrap table,
+    .product-thongtin-mota .table-wrap table {
+        display: table;
+    }
+
+    .itemFullText tr,
+    .product-thongtin-mota tr {
+        display: table-row;
+    }
+
+    .itemFullText td,
+    .product-thongtin-mota td {
+        display: table-cell;
+    }
+    /* End: MT Content */
+
+    /* Begin: Contact Page */
+    table.table-contact tr {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .table-contact .map {
+        height: 260px;
+    }
+
+    .mtcaptcha {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .mtcaptcha_2 {
+        width: 100%;
+    }
+    /* End: Contact Page */
+}
