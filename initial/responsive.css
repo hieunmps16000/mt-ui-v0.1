@@ -389,6 +389,8 @@
     }
 
     /* Code Responsive Below */
+
+    /* Begin: MT Header */
     #ja-header {
         position: sticky;
         top: 0;
@@ -425,6 +427,7 @@
     .cart_dropdown_trong {
         font-size: 50%;
     }
+    /* End: MT Header */
 
     /* Begin: MT Search Product */
     #Mod377 {
@@ -675,50 +678,6 @@
     }
     /* End: MT Product */
 
-    /* Begin: MT Footer */
-    .footer2 .main2 {
-        grid-template-columns: 1fr;
-    }
-
-    .footer2 .main2 > div {
-        padding: 0;
-    }
-
-    .footer-toggle .workshome-title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .footer-toggle .workshome-title::after {
-        content: "+";
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        width: 42px;
-        height: 42px;
-
-        color: #fff;
-
-        font-size: 200%;
-        font-weight: 700;
-        transition: all 0.2s ease;
-    }
-
-    .footer-toggle .workshome-title.opendoor::after {
-        content: "-";
-    }
-
-    #ja-chantrang .footer-toggle .workshome-title > * {
-        margin: 0;
-    }
-
-    .footer-toggle .workshome-content {
-        display: none;
-    }
-    /* End: MT Footer */
-
     /* Begin: MT Socials */
     .socials .menu li a,
     #ja-chantrang .socials .menu a {
@@ -771,4 +730,48 @@
         width: 100%;
     }
     /* End: Contact Page */
+
+    /* Begin: MT Footer */
+    .footer2 .main2 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer2 .main2 > div {
+        padding: 0;
+    }
+
+    .footer-toggle .workshome-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-toggle .workshome-title::after {
+        content: "+";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 42px;
+        height: 42px;
+
+        color: #fff;
+
+        font-size: 200%;
+        font-weight: 700;
+        transition: all 0.2s ease;
+    }
+
+    .footer-toggle .workshome-title.opendoor::after {
+        content: "-";
+    }
+
+    #ja-chantrang .footer-toggle .workshome-title > * {
+        margin: 0;
+    }
+
+    .footer-toggle .workshome-content {
+        display: none;
+    }
+    /* End: MT Footer */
 }

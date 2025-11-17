@@ -1,1 +1,25 @@
+.trangdmbv #itemListLeading {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
 
+.trangdmbv .itemRow {
+    padding: 15px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.trangdmbv .catItemView {
+    flex-direction: row;
+}
+
+.trangdmbv .catItemImageBlock {
+    width: 40%;
+}
+
+.trangdmbv .catItemThongTin {
+    padding: 0 20px;
+}
+
+.trangdmbv .catItemExtraFields {
+    margin-top: 0;
+}
