@@ -38,7 +38,7 @@ defined ( '_JEXEC' ) or die ( 'Restricted access' );
 					<div class="header1_1">
 						<jdoc:include type="modules" name="header1_1" style="JAworkshomeDIV"/>
 					</div>
-					<div class="header1_2 socials">
+					<div class="header1_2">
 						<jdoc:include type="modules" name="header1_2" style="JAworkshomeDIV"/>
 					</div>
 					<div class="header1_3">
@@ -149,7 +149,7 @@ defined ( '_JEXEC' ) or die ( 'Restricted access' );
 			</div>
 			<div class="footer2">
 				<div class="main2">
-					<div class="footer2_1">
+					<div class="footer2_1 socials">
 						<jdoc:include type="modules" name="footer2_1" style="JAworkshomeDIV"/>
 					</div>
 					<div class="footer2_2 footer-toggle">
@@ -158,7 +158,7 @@ defined ( '_JEXEC' ) or die ( 'Restricted access' );
 					<div class="footer2_3 footer-toggle">
 						<jdoc:include type="modules" name="footer2_3" style="JAworkshomeDIV"/>
 					</div>
-					<div class="footer2_4 socials">
+					<div class="footer2_4">
 						<jdoc:include type="modules" name="footer2_4" style="JAworkshomeDIV"/>
 					</div>
 				</div>
