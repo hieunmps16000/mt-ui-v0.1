@@ -1,0 +1,16 @@
+@mixin bg {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: 0.1;
+        background: url(../../../images/bg/bg-footer.jpg) top center / cover no-repeat;
+    }
+
+    > * {
+        position: relative;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,4 @@
+.bg {
+    background: url(../images/footer-bg-left.png) top left / auto no-repeat,
+        url(../images/footer-bg-right.png) top right / auto no-repeat, #dfdfdf;
+}

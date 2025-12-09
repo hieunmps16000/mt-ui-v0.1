@@ -1,0 +1,14 @@
+.footer4 {
+    position: relative;
+}
+.footer4::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.2;
+    background: url(../../../images/bg/bg-register.jpg) bottom center/cover no-repeat;
+}
+.footer4 > * {
+    position: relative;
+    z-index: 1;
+}
