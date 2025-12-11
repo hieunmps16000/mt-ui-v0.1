@@ -1,0 +1,275 @@
+.block-orderby {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.block-orderby > div.orderby-sapxep {
+    display: block;
+    margin-left: auto;
+}
+
+.block-orderby span {
+    display: none;
+}
+
+.selectsapxep,
+.select-limit {
+    padding: 6px 10px;
+    border-color: transparent;
+    border-radius: 4px;
+    color: #333;
+    background-position: right 14px center;
+    font-family: inherit;
+}
+
+.orderby-limit {
+    padding-left: 10px;
+}
+
+.search_tensp {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.locsp_block {
+    float: initial;
+}
+
+.browse-view .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.browse-view .blocksp {
+    display: block;
+    margin: 0;
+    width: 100%;
+    float: unset;
+}
+
+.browse-view .spacer {
+    padding: 0;
+    border: none;
+}
+
+.browse-view .product-anh a {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-top: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.browse-view .product-anh a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+    transition: left 0.25s ease-in-out;
+}
+
+.browse-view .product-anh a:hover::before {
+    left: 100%;
+}
+
+.browse-view .browseProductImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.browse-view .browseProductImage:hover {
+    transform: none;
+}
+
+.browse-view .product-thongtin {
+    padding: 10px;
+}
+
+.browse-view .product-thongtin-ten {
+    margin: 0 0 10px;
+}
+
+.product-thongtin-ten a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.browse-view .product-thongtin-ten:hover a {
+    color: #00a455;
+}
+
+.browse-view .nutaddtocart {
+    display: none;
+}
+
+.nutflytocart,
+.nutaddtocart {
+    width: 100%;
+    height: 42px;
+    border-radius: 4px;
+    color: #fff;
+    background: #00a455;
+}
+
+.nutflytocart:hover,
+.nutaddtocart:hover {
+    opacity: 0.9;
+}
+
+.nutflytocart i,
+.nutaddtocart i {
+    display: none;
+}
+
+.nutflytocart input,
+.nutaddtocart input {
+    width: 100%;
+    height: 100%;
+    padding: 0 12px;
+    border: none;
+    color: inherit;
+    background: none;
+    font-size: 87.5%;
+    font-weight: 500;
+    font-family: inherit;
+    text-transform: initial;
+}
+
+.main-image img {
+    height: 360px;
+    object-fit: cover;
+}
+
+.additional-images img {
+    display: block;
+    width: 50px;
+    object-fit: cover;
+}
+
+.productdetails .addtocart-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.productdetails .addtocart-bar span {
+    padding: 0;
+}
+
+.productdetails .quantity-input {
+    width: 60px;
+    height: 42px;
+    border-radius: 4px;
+}
+
+.productdetails .nutflytocart {
+    color: #00a455;
+    border: 1px solid currentColor;
+    background: transparent;
+    transition-property: color, background-color;
+    transition-duration: 0.25s;
+}
+
+.productdetails .nutflytocart:hover {
+    color: #fff;
+    border-color: #00a455;
+    background: #00a455;
+    opacity: 1;
+}
+
+.productdetails .product-thongtin-blockgia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+div#tabContainer .multitab li span {
+    padding: 10px 0;
+    border: none;
+    font-size: 100%;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+div#tabContainer .multitab li span.active,
+div#tabContainer .multitab li span:hover {
+    color: #00a455;
+    background: transparent;
+}
+
+div#tabContainer .multitab li span.active {
+    border-bottom: 2px solid currentcolor;
+}
+
+div#tabContainer .multitab li + li {
+    margin-left: 30px;
+}
+
+.vmfooter,
+.k2footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.viewallproduct,
+.moduleCustomLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-width: 160px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 4px;
+
+    color: #fff;
+    background: #00a455;
+
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: initial;
+    transition-property: color, background-color;
+    transition-duration: 0.25s;
+}
+
+.viewallproduct:hover,
+.moduleCustomLink:hover {
+    opacity: 0.9;
+}
+
+.viewallproduct::after,
+.moduleCustomLink::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 100%;
+    background: url(../../../images/icons/right-arrow.svg) center center/contain no-repeat;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(221deg) brightness(106%)
+        contrast(101%);
+}
+
+.cart-view_coupon {
+    display: none;
+}

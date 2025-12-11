@@ -1,0 +1,62 @@
+.module_search,
+.k2SearchBlockForm {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 99px;
+    overflow: hidden;
+}
+
+.module_search .inputbox,
+.k2SearchBlockForm .inputbox {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 14px;
+    border: none;
+    color: #000;
+    background: #fff;
+    font-weight: 500;
+    font-size: 87.5%;
+    font-family: inherit;
+}
+
+.module_search .inputbox::placeholder,
+.k2SearchBlockForm .inputbox::placeholder {
+    font-weight: 400;
+    color: #333;
+}
+
+.module_search .inputbox:hover,
+.k2SearchBlockForm .inputbox:hover {
+    background: #fff;
+}
+
+.module_search .button,
+.k2SearchBlockForm .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    width: 42px;
+    height: 100%;
+    border: none;
+    font-size: 100%;
+    color: #333;
+    background: #fff;
+}
+
+.module_search .button:hover i,
+.k2SearchBlockForm .button:hover i {
+    opacity: 0.9;
+}
+
+.module_search select,
+.k2SearchBlockForm select {
+    display: none;
+}

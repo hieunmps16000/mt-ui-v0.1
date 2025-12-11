@@ -1,0 +1,15 @@
+.extra4 .menu {
+    display: none;
+}
+
+.extra4 .menu img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    border: 1px solid #eaeaea;
+}
+
+.extra4 .image-title {
+    display: none;
+}

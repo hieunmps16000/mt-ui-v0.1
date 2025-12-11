@@ -1,0 +1,69 @@
+table.table-contact tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+table.table-contact td {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    border: none !important;
+}
+
+table.table-contact td:first-child i {
+    min-width: 24px;
+}
+
+table.table-contact td:last-child {
+    border-radius: 4px;
+}
+
+.table-contact .map {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bodylienhe .table-contact iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table.table-contact tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+table.table-contact td {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    border: none !important;
+}
+
+table.table-contact td:first-child i {
+    min-width: 24px;
+}
+
+table.table-contact td:last-child {
+    border-radius: 4px;
+}
+
+.table-contact .map {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bodylienhe .table-contact iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

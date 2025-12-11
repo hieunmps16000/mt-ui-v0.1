@@ -1,0 +1,138 @@
+.extra1 .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.extra1 .menu a {
+    position: relative;
+}
+
+.extra1 .menu img {
+    display: block;
+    width: 100%;
+    height: 377px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.extra1 .image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    padding: 9% 10px;
+    width: 85%;
+    border-radius: 10px;
+    font-size: 120%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00a354d9;
+    transform: translate(-50%, -50%);
+}
+
+.extra5 #itemListLeading {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.extra5 .catItemView {
+    position: relative;
+}
+
+.extra5 .catItemImageBlock a {
+    padding-top: 377px;
+}
+
+.extra5 .catItemImageBlock img:hover {
+    transform: initial;
+}
+
+.extra5 .catItemThongTin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: block;
+    padding: 9% 10px;
+    width: 85%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    background: #00a354d9;
+    transform: translate(-50%, -50%);
+}
+
+.extra5 .catItemTitle {
+    font-size: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.extra5 .catItemTitle a:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.extra5 .catItemExtraFields {
+    margin-top: 4px;
+    text-align: center;
+}
+
+.extra5 .catItemExtraFieldsValue {
+    color: #fff;
+}
+
+/* Blog */
+
+.extra5 #itemListLeading {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.extra5 .catItemView {
+    position: relative;
+}
+
+.extra5 .catItemImageBlock a {
+    padding-top: 377px;
+}
+
+.extra5 .catItemImageBlock img:hover {
+    transform: initial;
+}
+
+.extra5 .catItemThongTin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: block;
+    padding: 9% 10px;
+    width: 85%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    background: #00a354d9;
+    transform: translate(-50%, -50%);
+}
+
+.extra5 .catItemTitle {
+    font-size: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.extra5 .catItemTitle a:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.extra5 .catItemExtraFields {
+    margin-top: 4px;
+    text-align: center;
+}
+
+.extra5 .catItemExtraFieldsValue {
+    color: #fff;
+}

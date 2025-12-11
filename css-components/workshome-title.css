@@ -1,0 +1,24 @@
+#ja-extra .workshome-title,
+#ja-cotgiua .workshome-title {
+    margin-bottom: 32px;
+}
+
+#ja-extra .workshome-title > *,
+#ja-cotgiua .workshome-title > * {
+    margin: 0;
+    font-size: 200%;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+    color: #00a455;
+}
+
+#ja-extra .workshome-title > *::after,
+#ja-cotgiua .workshome-title > *::after {
+    content: "";
+    display: block;
+    margin: 8px auto 0;
+    width: 100px;
+    height: 3px;
+    background: #00a455;
+}

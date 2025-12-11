@@ -1,0 +1,18 @@
+.MTTable_Content h1,
+.MTTable_Content h2,
+.MTTable_Content h3,
+.MTTable_Content h4,
+.MTTable_Content h5,
+.MTTable_Content h6,
+.MTTable_Content p,
+.MTTable_Content ul {
+    margin-bottom: 16px;
+}
+
+.MTTable_Content iframe,
+.custom iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
