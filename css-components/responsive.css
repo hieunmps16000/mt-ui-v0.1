@@ -1,0 +1,59 @@
+.mobile_menu {
+    width: auto;
+}
+
+.mobile_menu .tieude {
+    color: #00a455;
+}
+
+.mobile_menu .noidung,
+.mobile_menu .noidung > ul > li > ul {
+    background: #00a455e6;
+}
+
+.mobile_menu .noidung li a,
+.mobile_menu .noidung li span {
+    font-size: 100%;
+}
+
+.mobile_menu .noidung > ul > li > a {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.browse-view .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.browse-view .blocksp,
+.browse-view .browseProductImage {
+    width: 100%;
+}
+
+.browse-view .spacer {
+    padding: 0;
+}
+
+.product-thongtin-ten,
+.catItemTitle,
+.product-thongtin-salesPrice {
+    font-size: 100%;
+}
+
+#itemListLeading {
+    grid-template-columns: 1fr;
+}
+
+.catItemImageBlock,
+.catItemThongTin {
+    width: 100%;
+}
+
+table.table-contact tr {
+    grid-template-columns: 1fr;
+}
+
+.mtcaptcha {
+    flex-direction: column-reverse;
+}
