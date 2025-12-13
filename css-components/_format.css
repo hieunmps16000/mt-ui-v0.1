@@ -1,1 +1,8 @@
-
+.productdetails .product-thongtin-salesPrice {
+    display: inline-flex;
+}
+.productdetails .product-thongtin-salesPrice::after {
+    content: "(Chưa bao gồm VAT)";
+    color: #333;
+    margin-left: 12px;
+}
