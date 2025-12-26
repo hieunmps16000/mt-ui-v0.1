@@ -1,0 +1,44 @@
+.btn,
+.cart-submit_button,
+.checkout-button-top .tieptucmuahang,
+.popup_cart_total_thanhtoan .checkout-button-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    user-select: none;
+    font-size: 100%;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    background: #007fc2;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn--small {
+    height: 38px;
+    font-size: 87.5%;
+}
+
+.btn--rounded {
+    border-radius: 99px;
+}
+
+.btn--outline {
+    color: #007fc2;
+    border: 1px solid currentColor;
+    background: transparent;
+}
+
+.btn i {
+    margin-left: 8px;
+}

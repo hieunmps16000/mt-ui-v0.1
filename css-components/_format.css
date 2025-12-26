@@ -1,8 +1,52 @@
-.productdetails .product-thongtin-salesPrice {
-    display: inline-flex;
+.footer1 .main2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
-.productdetails .product-thongtin-salesPrice::after {
-    content: "(Chưa bao gồm VAT)";
-    color: #333;
-    margin-left: 12px;
+
+.footer1 .ja-workshome + .ja-workshome {
+    margin-top: 36px;
+}
+
+.footer1 .workshome-title > * {
+    margin-bottom: 16px;
+    font-size: 150%;
+    font-family: inherit;
+}
+
+#Mod426 p,
+#Mod426 li {
+    margin: 8px 0;
+}
+
+#Mod427 {
+    padding: 36px;
+    background: linear-gradient(to bottom, #007fc2, #07396e);
+}
+#Mod427 .workshome-title > * {
+    color: #fff;
+}
+#Mod427 input[type="text"] {
+    background: #fff;
+}
+
+.footer1_2 {
+    position: relative;
+    overflow: hidden;
+}
+.footer1_2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 80%;
+    border: 1px solid #007fc2;
+    transform: translate(-50%, -50%);
+}
+.footer1_2 img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
 }

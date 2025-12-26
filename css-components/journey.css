@@ -1,0 +1,41 @@
+.extra3 a {
+    pointer-events: none;
+}
+
+.extra3 #itemListLeading {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.extra3 .catItemThongTin {
+    align-items: initial;
+}
+
+.extra3 .catItemTitle {
+    padding: 10px;
+    font-size: 100%;
+    text-align: center;
+    color: #fff;
+    background: #01345b;
+    clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+.extra3 .catItemExtraFields {
+    margin-top: 0;
+}
+
+.extra3 .catItemExtraFieldsValue {
+    display: block;
+    margin-top: 16px;
+    font-size: 100%;
+    text-align: left;
+    color: #333;
+}
+
+.extra3 .catItemExtraFieldsValue h3 {
+    margin-bottom: 8px;
+    font-size: 112.5%;
+}
+
+.extra3 .catItemExtraFieldsValue p ~ p {
+    margin-top: 10px;
+}

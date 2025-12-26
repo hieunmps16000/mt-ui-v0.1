@@ -1,12 +1,11 @@
-@mixin bg {
+@mixin make-bg($image: null) {
     position: relative;
 
     &::before {
         content: "";
         position: absolute;
         inset: 0;
-        opacity: 0.1;
-        background: url(../../../images/bg/bg-footer.jpg) top center / cover no-repeat;
+        background: url(../../../images/bg/#{$image}.jpg) top center / cover no-repeat;
     }
 
     > * {

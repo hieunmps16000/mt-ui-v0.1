@@ -75,7 +75,7 @@
 }
 
 .catItemTitle a:hover {
-    color: $primary-color;
+    color: #333;
 }
 
 .catItemExtraFields {
