@@ -12,17 +12,23 @@
 .cart_dropdown_trong i {
     width: auto;
     line-height: 1;
-    padding-right: 0.2em;
+    padding: 0.1em 0.2em 0 0;
 
     font-size: 2.4em;
 
-    color: #007fc2;
+    color: #000;
+    opacity: 0.5;
     background: none;
+    transition: opacity 0.3s;
+}
+
+.cart_dropdown_trong:hover i {
+    opacity: 1;
 }
 
 .cart_dropdown_trong strong {
     position: absolute;
-    top: -0.4em;
+    top: 0;
     right: 0;
     z-index: 1;
 

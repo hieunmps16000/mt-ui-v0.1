@@ -1,0 +1,87 @@
+#ja-menungang {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+}
+
+#ja-menungang .main2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#ja-menungang .level0 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#ja-menungang .menu li a {
+    display: flex;
+    align-items: center;
+    font-size: 87.5%;
+    text-transform: uppercase;
+    color: #333;
+}
+
+#ja-menungang .level0 > li > a {
+    padding: 15px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+#ja-menungang .level0 > li:hover > a,
+#ja-menungang .level0 > li.active > a,
+#ja-menungang .menu ul a:hover,
+#ja-menungang .menu ul li:hover > a {
+    color: #333;
+    background: transparent;
+    opacity: 1;
+}
+
+#ja-menungang .level0 ul {
+    top: 100%;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0 0 34px rgba(0, 0, 0, 0.1);
+    transform: translateX(-20px);
+    transition-duration: 0.25s;
+    transition-property: opacity, visibility, transform;
+}
+
+#ja-menungang .menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+#ja-menungang .menu ul a {
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: initial;
+    color: inherit;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#ja-menungang .menu ul ul {
+    top: 0;
+}
+
+#ja-menungang .menu > .deeper > a:after {
+    display: inline-block;
+    margin-left: 4px;
+    padding-left: 0;
+    font-size: 80%;
+    transition: rotate 0.25s;
+}
+
+#ja-menungang .menu > .deeper:hover > a:after {
+    rotate: -180deg;
+}
