@@ -1,9 +1,34 @@
-.extra1 #itemListLeading {
-    display: block;
+.trangdmbv #itemListLeading {
+    grid-template-columns: 1fr;
+    gap: 0;
 }
 
-.extra1 .catItemExtraFieldsValue {
-    display: block;
-    margin: 0;
-    font-size: 100%;
+.trangdmbv .itemRow {
+    padding: 15px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+.trangdmbv .itemRow:last-child {
+    border: none;
+}
+
+.trangdmbv .catItemView {
+    flex-direction: row;
+}
+
+.trangdmbv .catItemImageBlock {
+    width: 40%;
+}
+
+.trangdmbv .catItemThongTin {
+    padding: 0 15px;
+}
+
+.trangdmbv .catItemReadMore {
+    display: flex;
+    justify-content: flex-end;
+}
+.trangdmbv .catItemReadMore a::after {
+    content: "\f061";
+    font-family: fontawesome;
+    margin-left: 8px;
 }

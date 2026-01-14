@@ -16,3 +16,16 @@
     height: 100%;
     aspect-ratio: 16/9;
 }
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.table-wrap table {
+    height: auto !important;
+}
+
+.table-wrap table td {
+    padding: 10px;
+    border: 1px solid #eee;
+}
