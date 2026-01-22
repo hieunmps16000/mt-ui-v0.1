@@ -1,0 +1,95 @@
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <a href="tel:0907665527" class="top-hotline">
+                    <div class="top-hotline__icon">
+                        <img
+                            src="images/icons/phone-outline-2.png"
+                            alt="phone-outline-2"
+                            class="top-hotline__img"
+                            width="64"
+                            height="64"
+                        />
+                    </div>
+                    <div class="top-hotline__content">
+                        <h2 class="top-hotline__title">Hotline</h2>
+                        <p class="top-hotline__number">(+84) 0907-665-527</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<style>
+    @keyframes tada {
+        0% {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+        10%,
+        20% {
+            -webkit-transform: scale(0.9) rotate(-3deg);
+            -ms-transform: scale(0.9) rotate(-3deg);
+            transform: scale(0.9) rotate(-3deg);
+        }
+        30%,
+        50%,
+        70%,
+        90% {
+            -webkit-transform: scale(1.1) rotate(3deg);
+            -ms-transform: scale(1.1) rotate(3deg);
+            transform: scale(1.1) rotate(3deg);
+        }
+        40%,
+        60%,
+        80% {
+            -webkit-transform: scale(1.1) rotate(-3deg);
+            -ms-transform: scale(1.1) rotate(-3deg);
+            transform: scale(1.1) rotate(-3deg);
+        }
+        100% {
+            -webkit-transform: scale(1) rotate(0);
+            -ms-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+        }
+    }
+
+    .top-hotline {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .top-hotline__icon {
+        flex-shrink: 0;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #e63a27;
+        box-shadow: 0 0 0px 5px #e63a274d;
+    }
+
+    .top-hotline__img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        animation: tada 1.5s ease-out infinite;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(222deg) brightness(112%)
+            contrast(101%);
+    }
+
+    .top-hotline__title {
+        font-size: 87.5%;
+        font-weight: 400;
+    }
+
+    .top-hotline__number {
+        font-size: 100%;
+        font-weight: 500;
+    }
+</style>

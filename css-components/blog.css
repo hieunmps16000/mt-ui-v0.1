@@ -78,10 +78,6 @@
     color: #333;
 }
 
-.catItemExtraFields {
-    margin-top: auto;
-}
-
 .catItemExtraFields li[class*="group"]:first-child {
     margin: 0;
 }
