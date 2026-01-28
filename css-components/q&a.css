@@ -1,0 +1,56 @@
+.extra8 #itemListLeading {
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.extra8 .itemRow {
+    border-radius: 12px;
+    border: 1px solid #f3f4f6;
+    background: #f9fafb;
+}
+
+.extra8 .catItemThongTin {
+    padding: 0;
+}
+
+.extra8 .catItemTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 87.5%;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.extra8 .catItemTitle:hover {
+    text-decoration: underline solid #a521be;
+    text-underline-offset: 2px;
+}
+
+.extra8 .catItemTitle::after {
+    display: block;
+    content: url(../../../images/icons/arrow-top.svg);
+    transition: rotate 0.3s;
+}
+
+.extra8 .catItemTitle.active::after {
+    rotate: 180deg;
+}
+
+.extra8 .catItemTitle a {
+    pointer-events: none;
+    color: #1f2937;
+}
+
+.extra8 .catItemExtraFields {
+    display: none;
+    padding: 0 24px 16px;
+}
+
+.extra8 .catItemExtraFieldsValue {
+    display: block;
+    margin-top: 0;
+}

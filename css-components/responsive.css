@@ -6,6 +6,10 @@
     color: #00a455;
 }
 
+.mobile_menu .tieude i {
+    padding-right: 0;
+}
+
 .mobile_menu .noidung,
 .mobile_menu .noidung > ul > li > ul {
     background: #00a455e6;
