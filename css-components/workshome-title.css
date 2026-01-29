@@ -22,3 +22,17 @@
     height: 3px;
     background: #00a455;
 }
+
+#ja-cotgiua .title-product {
+    margin-bottom: 10px;
+}
+
+#ja-cotgiua .title-product > * {
+    font-size: 150%;
+    text-align: left;
+    text-transform: initial;
+}
+
+#ja-cotgiua .title-product > *::after {
+    content: none;
+}
