@@ -1,0 +1,26 @@
+.dinhhuong1 {
+    margin-top: 20px;
+    background: transparent;
+}
+
+.dinhhuong1 .ja-workshome {
+    padding: 0;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    font-size: 87.5%;
+}
+
+.breadcrumbs span {
+    padding: 0 10px;
+}
+
+.breadcrumbs strong {
+    color: inherit;
+    font-weight: 600;
+}

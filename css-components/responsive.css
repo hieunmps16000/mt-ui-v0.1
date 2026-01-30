@@ -58,6 +58,10 @@ table.table-contact tr {
     grid-template-columns: 1fr;
 }
 
+.table-contact .map {
+    height: 260px;
+}
+
 .mtcaptcha {
     flex-direction: column-reverse;
 }
