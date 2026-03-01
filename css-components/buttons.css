@@ -20,6 +20,14 @@
     background: #007fc2;
 }
 
+.btn,
+.cart-submit_button:hover,
+.checkout-button-top .tieptucmuahang:hover,
+.popup_cart_total_thanhtoan .checkout-button-top:hover {
+    background: #007fc2;
+    opacity: 0.8;
+}
+
 .btn:hover {
     opacity: 0.9;
 }

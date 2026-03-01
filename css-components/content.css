@@ -1,3 +1,12 @@
+.MTTable_Menu {
+    border: 1px solid #eaeaea;
+    background: #f4f4f4;
+}
+
+.MTTable_title {
+    user-select: none;
+}
+
 .MTTable_Content h2,
 .MTTable_Content h3,
 .MTTable_Content h4,
@@ -6,6 +15,13 @@
 .MTTable_Content p,
 .MTTable_Content ul {
     margin-bottom: 16px;
+    text-align: justify;
+}
+
+.MTTable_Content img + em {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .MTTable_Content iframe,

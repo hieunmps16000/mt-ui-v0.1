@@ -1,8 +1,9 @@
+/* Product */
 .block-orderby {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-    background: #f4f4f4;
+    /* padding: 10px;
+    background: #f4f4f4; */
 }
 
 .block-orderby > div.orderby-sapxep {
@@ -19,6 +20,7 @@
     padding: 6px 10px;
     border-color: transparent;
     border-radius: 4px;
+    border: 1px solid #dbdbdb;
     color: #333;
     background-position: right 14px center;
     font-family: inherit;
@@ -43,7 +45,7 @@
 .browse-view .row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 .browse-view .blocksp {
@@ -99,11 +101,14 @@
 }
 
 .browse-view .product-thongtin {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .browse-view .product-thongtin-ten {
     margin: 0 0 10px;
+    font-size: 93.75%;
+    font-weight: 400;
+    color: #334862;
 }
 
 .product-thongtin-ten a {
@@ -113,18 +118,37 @@
     overflow: hidden;
 }
 
-.browse-view .product-thongtin-ten:hover a {
-    color: #00a455;
+.browse-view .product-thongtin-ten a {
+    text-align: left;
 }
 
-.browse-view .nutaddtocart {
+.browse-view .product-thongtin-ten:hover a {
+    text-shadow: 1px 0 0 #000;
+}
+
+.product-thongtin-price-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-thongtin-giacu,
+.product-thongtin-salesPrice {
+    font-size: 93.75%;
+}
+
+.browse-view .product-thongtin-salesPrice {
+    margin-bottom: 0;
+}
+
+.browse-view .product-thongtin-muahang {
     display: none;
 }
 
 .nutflytocart,
 .nutaddtocart {
     width: 100%;
-    height: 42px;
+    height: 46px;
     border-radius: 4px;
     color: #fff;
     background: #00a455;
@@ -148,7 +172,7 @@
     border: none;
     color: inherit;
     background: none;
-    font-size: 87.5%;
+    font-size: 100%;
     font-weight: 500;
     font-family: inherit;
     text-transform: initial;
@@ -165,19 +189,58 @@
     object-fit: cover;
 }
 
-.productdetails .addtocart-bar {
-    display: flex;
-    gap: 20px;
+.productdetails .product-thongtin-giacu,
+.productdetails .product-thongtin-salesPrice {
+    font-size: 150%;
 }
 
-.productdetails .addtocart-bar span {
-    padding: 0;
+.productdetails .product-thongtin-giacu {
+    margin: 0;
+}
+
+.productdetails .addtocart-bar {
+    width: 100%;
+}
+
+.productdetails .prod-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.productdetails .quantity-controls {
+    display: flex !important;
+    align-items: center;
+    padding: 0 !important;
+    border: 1px solid #dbdbdb;
+}
+
+.productdetails .quantity-control {
+    width: 36px;
+    height: 36px;
+}
+
+.productdetails .quantity-box {
+    padding: 0 !important;
 }
 
 .productdetails .quantity-input {
     width: 60px;
-    height: 42px;
-    border-radius: 4px;
+    height: 36px;
+    border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input.quantity-input::-webkit-outer-spin-button,
+input.quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input.quantity-input[type="number"] {
+    -moz-appearance: textfield;
 }
 
 .productdetails .nutflytocart {
@@ -272,4 +335,13 @@ div#tabContainer .multitab li + li {
 
 .cart-view_coupon {
     display: none;
+}
+
+.spcungmuc {
+    padding-top: 20px;
+    border-top: 1px solid #dbdbdb;
+}
+
+#ja-cotgiua .spcungmuc .workshome-title > * {
+    text-align: left;
 }

@@ -1,22 +1,29 @@
 #ja-cottrai {
-    display: none;
-    width: 26%;
-}
-
-.AddMore_OptionSanham_ViewCategory #ja-cottrai {
-    display: block;
+    width: 23%;
 }
 
 #ja-cottrai .workshome-title > * {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
     padding: 10px 20px;
-    color: #fff;
-    background: #144f99;
+
     font-size: 100%;
+    font-weight: 500;
+    font-family: inherit;
+
+    background: #0f6338;
+}
+
+#ja-cottrai .workshome-title > *::before {
+    content: "\f550";
+    font-family: fontawesome;
 }
 
 #ja-cottrai .workshome-content {
     padding: 0;
-    background: transparent;
+    background: #fff;
 }
 
 #ja-cottrai .menu > li {
@@ -74,46 +81,56 @@
     width: 100%;
 }
 
-#ja-cottrai .row {
+#ja-cottrai .row,
+#ja-cottrai #itemListLeading {
     grid-template-columns: 1fr;
     gap: 0;
 }
 
-#ja-cottrai .blocksp {
+#ja-cottrai .blocksp,
+#ja-cottrai .itemRow {
     padding: 15px 0;
     border-bottom: 1px solid #dbdbdb;
 }
 
-#ja-cottrai .blocksp:last-child {
+#ja-cottrai .blocksp:last-child,
+#ja-cottrai .itemRow:last-child {
     border: none;
 }
 
-#ja-cottrai .spacer {
+#ja-cottrai .spacer,
+#ja-cottrai .catItemView {
     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
 }
 
-#ja-cottrai .product-anh {
-    width: 75px;
+#ja-cottrai .product-anh,
+#ja-cottrai .catItemImageBlock {
+    flex-shrink: 0;
+    width: 22.2%;
 }
 
-#ja-cottrai .product-thongtin {
-    flex: 1;
-    padding: 0 10px;
+#ja-cottrai .catItemImageBlock a {
+    padding-top: 100%;
 }
 
-#ja-cottrai .product-thongtin-ten {
-    font-size: 87.5%;
+#ja-cottrai .product-thongtin,
+#ja-cottrai .catItemThongTin {
+    padding: 0;
 }
 
-#ja-cottrai .product-thongtin-ten a {
-    text-align: left;
-}
-
-#ja-cottrai .product-thongtin-giacu,
-#ja-cottrai .product-thongtin-salesPrice {
+#ja-cottrai .catItemExtraFields {
     display: none;
 }
 
-#ja-cottrai .product-thongtin-muahang {
-    display: none;
+#ja-cottrai .catItemTitle {
+    font-weight: 400;
+    text-transform: initial;
+    color: #334862;
+}
+
+#ja-cottrai .catItemTitle:hover {
+    text-shadow: 1px 0 0 #000;
 }

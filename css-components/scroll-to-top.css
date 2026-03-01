@@ -1,0 +1,17 @@
+.custom-scroll-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #ccc;
+    border: 2px solid currentcolor;
+    cursor: pointer;
+}
+
+.custom-scroll-to-top::before {
+    content: "\f106";
+    font-family: fontawesome;
+    font-size: 87.5%;
+}
