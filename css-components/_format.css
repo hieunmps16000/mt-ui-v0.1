@@ -1,0 +1,21 @@
+.noidungtren1 {
+    position: relative;
+}
+
+.k2footer {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: #ccc;
+}
+.k2footer a {
+    padding: 8px 16px;
+    color: #fff;
+    background: #42993d;
+    font-weight: 700;
+    font-size: 87.5%;
+    border-radius: 4px;
+}
+.k2footer a:hover {
+    opacity: 0.8;
+}
